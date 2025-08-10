@@ -124,4 +124,7 @@ storage.
 - ✅Backup/DR (RDS snapshots, AMIs) and logging (CloudWatch Logs + S3).
 - ✅Test failover & scale-in/scale-out scenarios.
 
-
+## 📄 Author
+**Vikas Patel**  
+DevOps & AWS Enthusiast  
+📧 vikaspatel9922@gmail.com | 🌐 [GitHub Profile](https://github.com/20Dartside)
