@@ -1,11 +1,8 @@
-# Website-Deployment-on-AWS
-
-# Clean Works...!!!
 <!--
 ![Image Alt]()
 
 -->
-
+# Clean Works...!!!
 #  Deploying Website with the help AWS 
 
 This project demonstrates that  how to set up an AWS system to run websites that is secure, fast, and always available. It has separate public and private networks, balances traffic between servers, automatically adds or removes servers when needed, stores data in a secure database, monitors performance, sends alerts, and connects a custom domain to the site.
@@ -105,7 +102,7 @@ storage.
  
  <p><strong>Website Deployment Architecture Diagram</strong></p>
  
-  ![Image Alt]()
+  ![Image Alt](https://github.com/20Dartside/Website-Deployment-on-AWS/blob/main/output_img/img8.png?raw=true)
 
  
 </div>
@@ -115,27 +112,16 @@ storage.
 ##  Conclusion
 
 - ✅ Create VPC with 2+ AZs and subnet plan (public/private per AZ).
-
 - ✅ Create IGW + public route table.
-
 - ✅Security groups & NACL defaults.
-
 - ✅Launch ALB in public subnets + target group + health checks.
-
 - ✅Create Launch Template/User Data for app instances.
-
 - ✅Create ASG with proper scaling policies (target/step/CPU-based).
-
 - ✅Provision RDS (Multi-AZ, encryption, subnet group) in private subnets.
-
 - ✅Route53 record for domain → ALB.
-
 - ✅CloudWatch metrics/alarms + SNS topic subscriptions.
-
 - ✅IAM roles and SSM agent setup for secure access.
-
 - ✅Backup/DR (RDS snapshots, AMIs) and logging (CloudWatch Logs + S3).
-
 - ✅Test failover & scale-in/scale-out scenarios.
 
 
