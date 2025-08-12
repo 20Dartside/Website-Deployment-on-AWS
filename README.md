@@ -54,7 +54,7 @@ storage.
 
 - Amazon Route 53 – Domain and DNS routing to ALB
 
-- Amazon Simple Notification Service (SNS) – Event and alarm notifications
+- Amazon (SNS) Simple Notification Service  – Event and alarm notifications
 
 - Amazon CloudWatch – Real-time monitoring, alarms, and dashboards
 
@@ -111,18 +111,12 @@ storage.
 
 ##  Conclusion
 
-- ✅ Create VPC with 2+ AZs and subnet plan (public/private per AZ).
-- ✅ Create IGW + public route table.
-- ✅Security groups & NACL defaults.
-- ✅Launch ALB in public subnets + target group + health checks.
-- ✅Create Launch Template/User Data for app instances.
-- ✅Create ASG with proper scaling policies (target/step/CPU-based).
-- ✅Provision RDS (Multi-AZ, encryption, subnet group) in private subnets.
-- ✅Route53 record for domain → ALB.
-- ✅CloudWatch metrics/alarms + SNS topic subscriptions.
-- ✅IAM roles and SSM agent setup for secure access.
-- ✅Backup/DR (RDS snapshots, AMIs) and logging (CloudWatch Logs + S3).
-- ✅Test failover & scale-in/scale-out scenarios.
+- 🌐 Hosted a scalable & highly available website on AWS using a Custom VPC for secure, isolated networking 
+- 📈 Implemented Auto Scaling and Application Load Balancer for traffic management
+- ✅ Enabled CloudWatch Monitoring with alarms and dashboards
+- ✅ Integrated SNS Notifications for real-time alerts
+- ✅ Secured the architecture by placing the database in a private subnet
+
 
 ## 📄 Author
 **Vikas Patel**  
